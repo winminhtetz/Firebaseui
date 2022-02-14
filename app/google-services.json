@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163396286286",
+    "project_id": "fir-ui-531a3",
+    "storage_bucket": "fir-ui-531a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163396286286:android:a2f64a6553c3a0c04ad01f",
+        "android_client_info": {
+          "package_name": "com.wmh.firebaseui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163396286286-de0hhl4f7ttkm5673sjfjjmr8j9v74k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Ktik5J-_klB0s04GIC_4JKmf6QyJbjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163396286286-de0hhl4f7ttkm5673sjfjjmr8j9v74k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
