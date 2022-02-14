@@ -3,6 +3,7 @@ package com.wmh.firebaseui;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -61,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     Toast.makeText(MainActivity.this, "You are already sign in", Toast.LENGTH_SHORT).show();
-
+                    startActivity(new Intent(MainActivity.this, MainPage.class));
+                    finish();
 
                 } else {
                     startActivityForResult(AuthUI.getInstance()
